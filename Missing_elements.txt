@@ -1,0 +1,51 @@
+Missing elements
+
+You are given 2 arrays A and B each consisting of N integers.
+
+Find the smallest number which is present in array A but missing in array B. If no such element exists, print -1.
+
+Function description
+
+Complete the function solve(). This function takes 3 parameters and returns an integer as the required output:
+
+• N. Represents an integer denoting the size of the array
+• A: Represents an array of N integers
+• B. Represents an array of N integers
+
+Input format for custom testing
+
+Note: Use this input format if you are testing against custom input or writing code in a language where we don't provide boilerplate code
+
+• The first line contains an integer N.
+• The second line contains an array A of N integers.
+• The third line contains an array B of N integers.
+
+Output format
+Print the smallest numbers which are present in array A but missing in array B. If no such element exists, print -1.
+
+Constraints
+
+1  ≤ N  ≤ 2*10^5 
+1 ≤ A[i], B[i] ≤ 10^9
+
+Sample input
+8
+3 6 7 100 12 22 12 12
+12 3 6 100 40 3 50 7
+
+Sample output
+22
+
+Explanation
+NA
+
+Note: Your code must be able to print the sample output from the provided sample input. However, your code is run against multiple hidden test cases. Therefore, your code must pass these hidden test cases to solve the problem statement.
+
+Limits
+
+Time Limit: 1.0 sec(s) for each input file
+Memory Limit: 256 MB
+Source Limit: 1024 KB
+
+Scoring
+Score is assigned if any testcase passes
